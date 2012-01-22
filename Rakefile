@@ -17,11 +17,6 @@ task :server => :clean do
   jekyll('--server --auto')
 end
 
-desc 'Build and deploy'
-task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
-end
-
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post") (credits : https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile)
 desc "Begin a new post in _posts"
 task :new_post, :title do |t, args|
