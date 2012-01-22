@@ -8,7 +8,7 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: jeu.arthion.fr
-title: Games Corner
+title: Games.corner
 author: Kamiben
 email: eadel@arthion.fr
 
