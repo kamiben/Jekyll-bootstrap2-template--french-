@@ -54,7 +54,6 @@ def ask(message, valid_options)
   answer
 end
 
-
 def get_stdin(message)
   print message
   STDIN.gets.chomp

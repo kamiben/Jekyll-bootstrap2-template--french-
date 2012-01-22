@@ -4,7 +4,7 @@
  <title>Games Corner</title>
  <link href="http://jeu.arthion.fr/atom.xml" rel="self"/>
  <link href="http://jeu.arthion.fr/"/>
- <updated>2012-01-22T15:45:23+01:00</updated>
+ <updated>2012-01-22T16:33:45+01:00</updated>
  <id>http://jeu.arthion.fr/</id>
  <author>
    <name>Kamiben</name>
@@ -13,11 +13,11 @@
 
  
  <entry>
-   <title>Nouvel article</title>
-   <link href="http://jeu.arthion.fr/2012/01/22/nouvel-article.html"/>
+   <title>Games.open</title>
+   <link href="http://jeu.arthion.fr/2012/01/22/gamesopen.html"/>
    <updated>2012-01-22T00:00:00+01:00</updated>
-   <id>http://jeu.arthion.fr/2012/01/22/nouvel-article</id>
-   <content type="html">
+   <id>http://jeu.arthion.fr/2012/01/22/gamesopen</id>
+   <content type="html">&lt;p&gt;Voici un premier article de test. Il sera édité bien évidemment.&lt;/p&gt;
 </content>
  </entry>
  
