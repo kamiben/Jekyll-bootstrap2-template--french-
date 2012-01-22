@@ -365,4 +365,5 @@ body{padding-top:40px;color:#999;}
 .topbar .btn{border:0;}
 article{background-color:#3C3C3C;padding:10px;margin-bottom:30px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
 a,h2,h3,h4,h5,h6{color:#CCC;}
-time{text-align:right;color:#828282;}
+h5{text-align:right;}
+time{color:#828282;}

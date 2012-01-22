@@ -4,22 +4,13 @@
  <title>Games.corner</title>
  <link href="http://jeu.arthion.fr/atom.xml" rel="self"/>
  <link href="http://jeu.arthion.fr/"/>
- <updated>2012-01-22T18:27:17+01:00</updated>
+ <updated>2012-01-22T18:38:37+01:00</updated>
  <id>http://jeu.arthion.fr/</id>
  <author>
    <name>Kamiben</name>
    <email>eadel@arthion.fr</email>
  </author>
 
- 
- <entry>
-   <title>test</title>
-   <link href="http://jeu.arthion.fr/2012/01/22/test.html"/>
-   <updated>2012-01-22T00:00:00+01:00</updated>
-   <id>http://jeu.arthion.fr/2012/01/22/test</id>
-   <content type="html">
-</content>
- </entry>
  
  <entry>
    <title>Games.open</title>
