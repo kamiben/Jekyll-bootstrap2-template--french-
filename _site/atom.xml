@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Games Corner</title>
+ <link href="http://jeu.arthion.fr/atom.xml" rel="self"/>
+ <link href="http://jeu.arthion.fr/"/>
+ <updated>2012-01-22T15:45:23+01:00</updated>
+ <id>http://jeu.arthion.fr/</id>
+ <author>
+   <name>Kamiben</name>
+   <email>eadel@arthion.fr</email>
+ </author>
+
+ 
+ <entry>
+   <title>Nouvel article</title>
+   <link href="http://jeu.arthion.fr/2012/01/22/nouvel-article.html"/>
+   <updated>2012-01-22T00:00:00+01:00</updated>
+   <id>http://jeu.arthion.fr/2012/01/22/nouvel-article</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>

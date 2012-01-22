@@ -22,34 +22,42 @@ task :deploy => :build do
   sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
 end
 
-desc 'Check links for site already running on localhost:4000'
-task :check_links do
-  begin
-    require 'anemone'
-    root = 'http://localhost:4000/'
-    Anemone.crawl(root, :discard_page_bodies => true) do |anemone|
-      anemone.after_crawl do |pagestore|
-        broken_links = Hash.new { |h, k| h[k] = [] }
-        pagestore.each_value do |page|
-          if page.code != 200
-            referrers = pagestore.pages_linking_to(page.url)
-            referrers.each do |referrer|
-              broken_links[referrer] << page
-            end
-          end
-        end
-        broken_links.each do |referrer, pages|
-          puts "#{referrer.url} contains the following broken links:"
-          pages.each do |page|
-            puts "  HTTP #{page.code} #{page.url}"
-          end
-        end
-      end
-    end
-
-  rescue LoadError
-    abort 'Install anemone gem: gem install anemone'
+# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post") (credits : https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile)
+desc "Begin a new post in _posts"
+task :new_post, :title do |t, args|
+  abort("rake aborted: _posts directory not found.") unless FileTest.directory?("_posts")
+  args.with_defaults(:title => 'Nouvel article')
+  slug = args.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = File.join("_posts", "#{Time.now.strftime('%Y-%m-%d')}-#{slug}.md")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
+  
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{args.title.gsub(/-/,' ')}\""
+    post.puts "comments: true"
+    post.puts "category: "
+    post.puts "tags: []"
+    post.puts "---"
+  end
+end # task :new_post
+
+def ask(message, valid_options)
+  if valid_options
+    answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
+  else
+    answer = get_stdin(message)
+  end
+  answer
+end
+
+
+def get_stdin(message)
+  print message
+  STDIN.gets.chomp
 end
 
 def cleanup
