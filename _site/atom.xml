@@ -4,7 +4,7 @@
  <title>Games.corner</title>
  <link href="http://jeu.arthion.fr/atom.xml" rel="self"/>
  <link href="http://jeu.arthion.fr/"/>
- <updated>2012-01-22T17:19:05+01:00</updated>
+ <updated>2012-01-22T18:27:17+01:00</updated>
  <id>http://jeu.arthion.fr/</id>
  <author>
    <name>Kamiben</name>
@@ -13,11 +13,20 @@
 
  
  <entry>
+   <title>test</title>
+   <link href="http://jeu.arthion.fr/2012/01/22/test.html"/>
+   <updated>2012-01-22T00:00:00+01:00</updated>
+   <id>http://jeu.arthion.fr/2012/01/22/test</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
    <title>Games.open</title>
    <link href="http://jeu.arthion.fr/2012/01/22/gamesopen.html"/>
    <updated>2012-01-22T00:00:00+01:00</updated>
    <id>http://jeu.arthion.fr/2012/01/22/gamesopen</id>
-   <content type="html">&lt;p&gt;Bievenue sur Games.corner !&lt;/p&gt;
+   <content type="html">&lt;p&gt;Bienvenue sur Games.corner !&lt;/p&gt;
 
 &lt;p&gt;Ce site est tout d'abord une expérimentation avec le moteur Jekyll, mais aussi l'occasion de créer une sorte de dépot de reflexions sur les jeux, ainsi que quelques proses inspirées par ces derniers.&lt;/p&gt;
 
