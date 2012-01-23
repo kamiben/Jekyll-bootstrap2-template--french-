@@ -5,6 +5,16 @@ header: Posts By Category
 group: navigation
 ---
 
+  <article>
+  <h2>Liste des catégories</h2>
+  <ul>
+    {% for category in site.categories %} 
+  	  <li><a href="/categories.html#{{ category[0] }}-ref">
+  	    {{ category[0] | join: "/" }} ({{ category[1].size }} articles)
+  	  </a></li>
+    {% endfor %}
+  </ul>
+  </article>
 
 {% for category in site.categories %} 
   <article>
