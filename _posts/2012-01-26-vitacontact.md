@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Vita.contact"
+comments: true
+category: Vita
+tags: []
+---
+
+En démonstration dans un centre commercial proche, j'ai pu avoir l'occasion de tester la PS Vita, déjà sortie au Japon, où le succès n'est pas au rendez vous en terme de ventes. 
+
+La sortie européenne étant prévue pour le 22 février, l'occasion était trop bonne pour ne pas la prendre en main ;) 
+
+Après une rapide inscription auprès d'une hotesse, j'ai pu passer un peu de temps devant une console. Le premier contact est décevant. Ceci n'est pas dû à la console : elle est encastrée dans une énorme gange métallique qui empèche de se faire une idée du poids, de la forme et de la prise en main de la console. 
+
+Peu importe, voyons un peu ce qu'elle a dans le ventre. Je commence par lancer Uncharted golden abyss, ayant récemment terminé le 2. Les temps de chargement son comparable avec ceux de la ps3, les controles sont identiques en termes de déplacement et d'interaction principales. J'ai pu faire un usage anecdotique de la partie tactile avant, le jeu me demandant de trancher un drap avec une machette, il fallait donc reproduire ces gestes sur l'écran. 
+
+La partie graphique est sympathique, sans plus. Le jeu est moins époustouflant sur un petit écran, mais néanmoins les graphismes sont très léchés et impressionnants pour une portable.
+
+J'ai ensuite lancé Wipeout 2048. Ayant Wipeout HD sur ps3, je n'ai pas été dépaysé. C'est le même jeu. Aucun ralentissement, le bilan est positif, la prise en main identique à celle de la version salon.
+
+Pour terminer, j'ai lancé Little deviants. Finalement c'est le jeu qui présente le plus les nouvelles fonctionalités de la console. L'usage du pavé tactile arrière est très sympathique, et les déformations du terrain de jeu en temps réel démontrent les possibilités de la portable. Au delà de cet aspect, je ne me vois pas accrocher sur le jeu.
+
+Comme mon premier ressenti me le laissait penser, la console en a dans le ventre mais n'est pas révolutionnaire. Le line up de départ est interessant sans plus, et ce premier contact ne m'a pas fait l'effet d'un coup de coeur. Cela me conforte dans l'approche que j'ai de la console : oui elle est très interessante, non il n'est pas nécéssaire de l'acheter dès sa sortie. Une attente de baisse de prix, ou de meilleurs jeux devrait rendre la console très interessante. Par contre, le fait qu'elle soit compatible avec tous les jeux PSP disponible sur le PSN est un grand plus, et devra me permettre de jouer à FF Tactics (Classic PSone dans de bonnes conditions :)
