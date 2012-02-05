@@ -725,7 +725,7 @@ body{padding-top:40px;color:#999;}
 .page-header{padding:20px 20px 10px;margin:0px -20px 20px;border-bottom:none;-webkit-box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);-webkit-box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);box-shadow:0 0px 0 rgba(255, 255, 255, 0.5);}.page-header h1{color:#09C;}
 .content .span4{margin-left:0;padding-left:19px;}
 .topbar .btn{border:0;}
-article{background-color:#3C3C3C;padding:10px;margin-bottom:30px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
+.article,article{background-color:#3C3C3C;padding:10px;margin-bottom:30px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
 a,h2,h3,h4,h5,h6{color:#CCC;}
 a.hover{color:#CCC;}
 h5{text-align:right;color:#828282;}

@@ -5,7 +5,7 @@ header: Posts By Category
 group: navigation
 ---
 
-  <article>
+  <div class="article">
   <h2>Liste des catégories</h2>
   <ul>
     {% for category in site.categories %} 
@@ -14,15 +14,15 @@ group: navigation
   	  </a></li>
     {% endfor %}
   </ul>
-  </article>
+  </div>
 
 {% for category in site.categories %} 
-  <article>
+  <div class="article">
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
     {% assign pages_list = category[1] %}  
     {% include helpers/pages_list.html %}
   </ul>
-  </article>
+  </div>
 {% endfor %}
 
