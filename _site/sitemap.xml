@@ -3,7 +3,7 @@
 
   <!--  Homepage -->
   <url>
-    <loc>http://jeu.arthion.fr/</loc>
+    <loc>http://domain.com/</loc>
     <lastmod>2012-02-05</lastmod>
     <changefreq>daily</changefreq>
 		<priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   
   <url>
-    <loc>http://jeu.arthion.fr/2012/01/22/Sample-post/</loc>
+    <loc>http://domain.com/2012/01/22/Sample-post/</loc>
     
     <lastmod>2012-01-22</lastmod>
     
@@ -20,7 +20,7 @@
 
   
   <url>
-    <loc>http://jeu.arthion.fr/about.html</loc>
+    <loc>http://domain.com/about.html</loc>
     
     <lastmod>2012-02-05</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://jeu.arthion.fr/categories.html</loc>
+    <loc>http://domain.com/categories.html</loc>
     
     <lastmod>2012-02-05</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://jeu.arthion.fr/archive.html</loc>
+    <loc>http://domain.com/archive.html</loc>
     
     <lastmod>2012-02-05</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://jeu.arthion.fr/index.html</loc>
+    <loc>http://domain.com/index.html</loc>
     
     <lastmod>2012-02-05</lastmod>
     

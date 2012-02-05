@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Games.corner</title>
- <link href="http://jeu.arthion.fr/atom.xml" rel="self"/>
- <link href="http://jeu.arthion.fr/"/>
- <updated>2012-02-05T16:49:27+01:00</updated>
- <id>http://jeu.arthion.fr/</id>
+ <title>Blog Title</title>
+ <link href="http://domain.com/atom.xml" rel="self"/>
+ <link href="http://domain.com/"/>
+ <updated>2012-02-05T20:42:20+01:00</updated>
+ <id>http://domain.com/</id>
  <author>
-   <name>Kamiben</name>
-   <email>eadel@arthion.fr</email>
+   <name>Name</name>
+   <email>email</email>
  </author>
 
  
  <entry>
    <title>Games.open</title>
-   <link href="http://jeu.arthion.fr/2012/01/22/Sample-post/"/>
+   <link href="http://domain.com/2012/01/22/Sample-post/"/>
    <updated>2012-01-22T00:00:00+01:00</updated>
-   <id>http://jeu.arthion.fr/2012/01/22/Sample-post</id>
+   <id>http://domain.com/2012/01/22/Sample-post</id>
    <content type="html">&lt;p&gt;This is a sample post&lt;/p&gt;
 
 &lt;p&gt;Edit me :)&lt;/p&gt;

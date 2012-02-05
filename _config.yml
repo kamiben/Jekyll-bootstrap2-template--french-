@@ -7,10 +7,10 @@ markdown: rdiscount
 
 # configuration required for some pages
 
-domain: jeu.arthion.fr
-title: Games.corner
-author: Kamiben
-email: eadel@arthion.fr
+domain: domain.com
+title: Blog Title
+author: Name
+email: email
 
 # configuration for ehancements, uncomment to enable
 
