@@ -6,7 +6,7 @@ layout: default
     <h2>
       <a href="{{ page.url }}" rel="bookmark" title="Lien permanent vers ">{{ page.title }}</a>
     </h2>
-    <h5><time>{{ page.date | date: '%b' }}, {{ page.date | date: '%Y' }}</time></h5>
+    <h5>{{ page.date | date: '%b' }}, {{ page.date | date: '%Y' }}</h5>
   </header>
 
   {{ content }} 

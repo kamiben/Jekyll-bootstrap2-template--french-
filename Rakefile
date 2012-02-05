@@ -63,5 +63,5 @@ def jekyll(opts = '')
 end
 
 def less(opts = '')
-  sh 'cd _less && lessc styles.less > ../stylesheets/styles.css && cd ..'
+  sh 'cd _less && lessc -x styles.less > ../stylesheets/styles.css && cd ..'
 end
