@@ -10,11 +10,11 @@ Additional differences with the original are :
  * Completely new color scheme, feel free to revert back to the original custom.css from jgritman's repo.
 
 To compile the CSS, install lessc from the following commands : 
-   sudo apt-get install python-software-properties
-   sudo add-apt-repository ppa:chris-lea/node.js
-   sudo apt-get update
-   sudo apt-get install nodejs
-   npm install less -g
+    sudo apt-get install python-software-properties
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
+    npm install less -g
 
 I still consider the theme unfinished but feel free to fork.
 
