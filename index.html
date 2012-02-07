@@ -7,9 +7,9 @@ description: A description about my blog homepage
 <article>
   <header>
     <h2>
-        <a href="{{ post.url }}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>
+        <a href="{{ post.url }}" rel="bookmark" title="Lien permanent vers ">{{ post.title }}</a>
     </h2>
-    <h5><time>{{ post.date | date: '%b' }}, {{ post.date | date: '%Y' }}</time></h5>
+    <h5>{{ post.date | date: '%b' }}, {{ post.date | date: '%Y' }}</h5>
   </header>
   {{ post.content }}
 </article>
